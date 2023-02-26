@@ -1,0 +1,30 @@
+#game {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #333;
+  width: 300px;
+  height: 300px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  font-size: 48px;
+  line-height: 100px;
+}
+
+.cell.x {
+  color: #f00;
+}
+
+.cell.o {
+  color: #00f;
+}
